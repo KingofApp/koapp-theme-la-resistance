@@ -1,0 +1,33 @@
+/* General styles */
+
+.module {
+  padding: 10px;
+}
+
+.module .module {
+  padding: 0;
+}
+
+.module > a {
+  color: inherit;
+  display: block;
+  text-decoration: none;
+}
+
+.module > a + a,
+la-resistance-card + la-resistance-card {
+  margin-top: 15px;
+}
+
+la-resistance-card {
+  max-width: 100%;
+}
+
+form {
+  margin: 15px;
+}
+
+form la-resistance-button {
+  float: right;
+  margin-top: 15px;
+}
