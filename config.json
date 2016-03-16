@@ -1,0 +1,64 @@
+{
+  "name": "La Resistance",
+  "identifier": "koapp-theme-la-resistance",
+  "description": {
+    "en-US" : "",
+    "es-ES" : "Plantilla basada en las guías de diseño de Material Design"
+  },
+  "version": "1.0",
+  "author": "King of App",
+  "category": [
+    "material-design"
+  ],
+  "price": 0,
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
+  ],
+  "showOn": {
+    "market": true
+  },
+  "images" : {
+    "list" : "images/list.png",
+    "screenshots" : [
+      "images/screenshot01.png",
+      "images/screenshot02.png"
+    ],
+    "popover" : "images/popover.png",
+    "banner" : "images/banner.png"
+  },
+  "defaultConfig": {
+    "colors": {
+      "primaryTextColor": "#636363",
+      "primaryBackgroundColor": "#ffffff",
+      "secondaryTextColor": "#636363",
+      "disabledTextColor": "#424242",
+      "dividerColor": "#e0e0e0",
+      "primaryColor": "#e65540",
+      "lightPrimaryColor": "#c5cae9",
+      "darkPrimaryColor": "#e65540",
+      "accentColor": "#ff4081",
+      "lightAccentColor": "#ff4081",
+      "darkAccentColor": "#ff4081",
+      "errorColor": "#dd2c00",
+      "backgroundColor": "#e0e0e0"
+    },
+    "images": {
+      "background": ""
+    },
+    "fonts": {
+      "primaryFontFamily": {
+        "name": "Open Sans",
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans"
+      },
+      "titleFontFamily": {
+        "name": "Oswald",
+        "url": "https://fonts.googleapis.com/css?family=Oswald"
+      }
+    },
+    "menu": "polymermenu"
+  },
+  "subscription": false,
+  "main": "themes/koapp-theme-la-resistance/koapp-theme-la-resistance.html"
+}
