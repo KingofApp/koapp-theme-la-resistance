@@ -12,7 +12,7 @@ la-resistance-card + la-resistance-card {
 }
 
 la-resistance-card {
-  max-width: 100%;
+  width: 100%;
 }
 
 form {
